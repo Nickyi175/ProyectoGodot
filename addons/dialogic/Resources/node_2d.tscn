@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://d0gvp7x3pk3sn"]
+
+[ext_resource type="Script" path="res://addons/dialogic/Modules/Text/node_dialog_text.gd" id="1_cy6cx"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="DialogicNode_DialogText" type="RichTextLabel" parent="."]
+offset_left = 717.0
+offset_top = 371.0
+offset_right = 967.0
+offset_bottom = 472.0
+text = "sdasdasdadasdasdasdasdasdasdsdasd"
+script = ExtResource("1_cy6cx")

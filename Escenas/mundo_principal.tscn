@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dtg5bdj4jwplo"]
+
+[ext_resource type="Texture2D" uid="uid://b6teivo65kjeo" path="res://Art/Fondos_Imagenes/mundo1.jpg" id="1_3dp84"]
+[ext_resource type="PackedScene" uid="uid://dnnqpwoe88nfe" path="res://Escenas/character_body_2d.tscn" id="2_2qobx"]
+
+[node name="Mundo Principal" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1151.0
+offset_bottom = 648.0
+texture = ExtResource("1_3dp84")
+
+[node name="player" parent="." instance=ExtResource("2_2qobx")]
